@@ -76,3 +76,4 @@ namespace ConsoleCalculator
         }
     }
 }
+// функция 3
