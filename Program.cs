@@ -55,8 +55,11 @@ namespace ConsoleCalculator
         }
         static void Subtract()
         {
-            Console.WriteLine($"A - B = {A - B}");
+            double result = A - B;
+            Console.WriteLine("Результат вычитания: " + A + " - " + B + " = " + result);
+            Console.WriteLine("Нажмите любую клавишу...");
             Console.ReadKey();
+        }
         }
         static void Multiply()
         {
