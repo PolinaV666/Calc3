@@ -50,9 +50,11 @@ namespace ConsoleCalculator
         }
         static void Add()
         {
-            Console.WriteLine($"A + B = {A + B}");
+            double result = A + B;
+            Console.WriteLine("Результат сложения: " + A + " + " + B + " = " + result);
+            Console.WriteLine("Нажмите любую клавишу...");
             Console.ReadKey();
-        }
+        } 
         static void Subtract()
         {
             Console.WriteLine($"A - B = {A - B}");
